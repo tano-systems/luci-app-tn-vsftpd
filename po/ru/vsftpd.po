@@ -11,11 +11,8 @@ msgstr ""
 "Language: ru\n"
 "X-Generator: Poedit 2.2\n"
 
-msgid ". and .. are excluded."
-msgstr ". и .. показываются всегда"
-
 msgid "0 means no limitation"
-msgstr "0 &mdash без ограничений"
+msgstr "0 &mdash; без ограничений"
 
 msgid "A message will be displayed when entering a directory."
 msgstr "Сообщение отображается при входе в каталог."
@@ -27,12 +24,14 @@ msgid "Allow directory recursely list"
 msgstr "Разрешить рекурсивный просмотр каталогов"
 
 msgid "An actual local user to handle anonymous user"
-msgstr "Имя локального пользователя, от имени которого обеспечивается анонимный доступ"
+msgstr ""
+"Имя локального пользователя, от имени которого обеспечивается анонимный "
+"доступ"
 
 msgid "An actual local user to handle virtual users"
 msgstr ""
-"Имя локального пользователя, от имени которого обеспечивается доступ виртуальным "
-"пользователям"
+"Имя локального пользователя, от имени которого обеспечивается доступ "
+"виртуальным пользователям"
 
 msgid "Anonymous Settings"
 msgstr "Настройки анонимного доступа"
@@ -128,7 +127,7 @@ msgid "FTP Server: New Virtual User"
 msgstr "FTP сервер: Новый виртуальный пользователь"
 
 msgid "FTP Server: Virtual User %q"
-msgstr "FTP сервер: Виртуальный пользователь %q"
+msgstr "FTP сервер: Виртуальный пользователь &laquo;%s&raquo;"
 
 msgid "FTP Server: Virtual User Settings"
 msgstr "FTP сервер: Настройка виртуальных пользователей"
@@ -138,6 +137,9 @@ msgstr "Сообщение сервера (FTP баннер)"
 
 msgid "File mode umask"
 msgstr "Режим создания файлов (umask)"
+
+msgid "Folders '.' and '..' are excluded."
+msgstr "Папки &laquo;.&raquo; и &laquo;..&raquo; показываются всегда"
 
 msgid "General Settings"
 msgstr "Общие настройки"
@@ -156,6 +158,12 @@ msgstr "IPv6 адрес"
 
 msgid "Idle session timeout"
 msgstr "Таймаут неактивной сессии"
+
+msgid "In KB/s, 0 means no limitation"
+msgstr "В кБ/с, 0 &mdash; без ограничений"
+
+msgid "In seconds"
+msgstr "В секундах"
 
 msgid "Include rename, deletion, ..."
 msgstr "Включая переименование, удаление, ..."
@@ -212,7 +220,8 @@ msgid "Upload only"
 msgstr "Только для загрузки (upload)"
 
 msgid ""
-"Uploaded file mode will be 666 - &lt;umask&gt;; directory mode will be 777 - &lt;umask&gt;."
+"Uploaded file mode will be 666 - &lt;umask&gt;; directory mode will be 777 - "
+"&lt;umask&gt;."
 msgstr "Режим загруженных файлов 666, каталогов 777."
 
 msgid "User Settings"
@@ -231,16 +240,13 @@ msgid "Virtual Users"
 msgstr "Виртуальные пользователи"
 
 msgid "When disabled, all download request will give permission denied."
-msgstr "Если отключено, все запросы на скачивание будут вызывать ошибку доступа."
+msgstr ""
+"Если отключено, все запросы на скачивание будут вызывать ошибку доступа."
 
 msgid "When disabled, all write request will give permission denied."
 msgstr "Если отключено, все запросы на запись будут вызывать ошибку доступа."
 
 msgid "When disabled, list commands will give permission denied."
-msgstr "Если отключено, все запросы на просмотр списка каталога будут вызывать ошибку доступа."
-
-msgid "in KB/s, 0 means no limitation"
-msgstr "в кБ/с, 0 &mdash; без ограничений"
-
-msgid "in seconds"
-msgstr "в секундах"
+msgstr ""
+"Если отключено, все запросы на просмотр списка каталога будут вызывать "
+"ошибку доступа."

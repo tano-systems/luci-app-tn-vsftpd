@@ -53,7 +53,7 @@ o.default = true
 
 o = sg:option(Flag, "lsrecurse", translate("Allow directory recursely list"))
 
-o = sg:option(Flag, "dotfile", translate("Show dot files"), translate(". and .. are excluded."));
+o = sg:option(Flag, "dotfile", translate("Show dot files"), translate("Folders '.' and '..' are excluded."));
 o.default = true
 
 o = sg:option(Value, "umask", translate("File mode umask"), translate("Uploaded file mode will be 666 - &lt;umask&gt;; directory mode will be 777 - &lt;umask&gt;."))
@@ -88,13 +88,13 @@ o:value("upload", translate("Upload only"))
 o:value("both", translate("Both download and upload"))
 o.default = "both"
 
-o = sc:option(Value, "idletimeout", translate("Idle session timeout"), translate("in seconds"))
+o = sc:option(Value, "idletimeout", translate("Idle session timeout"), translate("In seconds"))
 o.datatype = "uinteger"
 o.default = "1800"
-o = sc:option(Value, "conntimeout", translate("Connection timeout"), translate("in seconds"))
+o = sc:option(Value, "conntimeout", translate("Connection timeout"), translate("In seconds"))
 o.datatype = "uinteger"
 o.default = "120"
-o = sc:option(Value, "dataconntimeout", translate("Data connection timeout"), translate("in seconds"))
+o = sc:option(Value, "dataconntimeout", translate("Data connection timeout"), translate("In seconds"))
 o.datatype = "uinteger"
 o.default = "120"
 o = sc:option(Value, "maxclient", translate("Max clients"), translate("0 means no limitation"))
@@ -103,7 +103,7 @@ o.default = "0"
 o = sc:option(Value, "maxperip", translate("Max clients per IP"), translate("0 means no limitation"))
 o.datatype = "uinteger"
 o.default = "0"
-o = sc:option(Value, "maxrate", translate("Max transmit rate"), translate("in KB/s, 0 means no limitation"))
+o = sc:option(Value, "maxrate", translate("Max transmit rate"), translate("In KB/s, 0 means no limitation"))
 o.datatype = "uinteger"
 o.default = "0"
 o = sc:option(Value, "maxretry", translate("Max login fail count"), translate("Can not be zero, default is 3"))
