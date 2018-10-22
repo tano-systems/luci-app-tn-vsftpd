@@ -42,26 +42,27 @@ o.default = "20"
 
 sg = m:section(NamedSection, "global", "global", translate("Global Settings"))
 
-o = sg:option(Flag, "write", translate("Enable write"), translate("When disabled, all write request will give permission denied."));
+o = sg:option(Flag, "write", translate("Enable write"), translate("When disabled, all write request will give permission denied"));
 o.default = true
 
-o = sg:option(Flag, "download", translate("Enable download"), translate("When disabled, all download request will give permission denied."));
+o = sg:option(Flag, "download", translate("Enable download"), translate("When disabled, all download request will give permission denied"));
 o.default = true
 
-o = sg:option(Flag, "dirlist", translate("Enable directory list"), translate("When disabled, list commands will give permission denied."))
+o = sg:option(Flag, "dirlist", translate("Enable directory list"), translate("When disabled, list commands will give permission denied"))
 o.default = true
 
 o = sg:option(Flag, "lsrecurse", translate("Allow directory recursely list"))
 
-o = sg:option(Flag, "dotfile", translate("Show dot files"), translate("Folders '.' and '..' are excluded."));
+o = sg:option(Flag, "dotfile", translate("Show dot files"), translate("Folders '.' and '..' are excluded"));
 o.default = true
 
-o = sg:option(Value, "umask", translate("File mode umask"), translate("Uploaded file mode will be 666 - &lt;umask&gt;; directory mode will be 777 - &lt;umask&gt;."))
+o = sg:option(Value, "umask", translate("File mode umask"),
+	translate("Uploaded file mode will be 666&thinsp;&minus;&thinsp;umask, directory mode will be 777&thinsp;&minus;&thinsp;umask"))
 o.default = "022"
 
 o = sg:option(Value, "banner", translate("FTP banner"))
 
-o = sg:option(Flag, "dirmessage", translate("Enable directory message"), translate("A message will be displayed when entering a directory."))
+o = sg:option(Flag, "dirmessage", translate("Enable directory message"), translate("A message will be displayed when entering a directory"))
 
 o = sg:option(Value, "dirmsgfile", translate("Directory message filename"))
 o.default = ".message"

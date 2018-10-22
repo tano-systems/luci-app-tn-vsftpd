@@ -4,7 +4,7 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 msgid "0 means no limitation"
 msgstr ""
 
-msgid "A message will be displayed when entering a directory."
+msgid "A message will be displayed when entering a directory"
 msgstr ""
 
 msgid "ASCII mode"
@@ -124,7 +124,7 @@ msgstr ""
 msgid "File mode umask"
 msgstr ""
 
-msgid "Folders '.' and '..' are excluded."
+msgid "Folders '.' and '..' are excluded"
 msgstr ""
 
 msgid "General Settings"
@@ -206,8 +206,8 @@ msgid "Upload only"
 msgstr ""
 
 msgid ""
-"Uploaded file mode will be 666 - &lt;umask&gt;; directory mode will be 777 - "
-"&lt;umask&gt;."
+"Uploaded file mode will be 666&thinsp;&minus;&thinsp;umask, directory mode "
+"will be 777&thinsp;&minus;&thinsp;umask"
 msgstr ""
 
 msgid "User Settings"
@@ -225,11 +225,11 @@ msgstr ""
 msgid "Virtual Users"
 msgstr ""
 
-msgid "When disabled, all download request will give permission denied."
+msgid "When disabled, all download request will give permission denied"
 msgstr ""
 
-msgid "When disabled, all write request will give permission denied."
+msgid "When disabled, all write request will give permission denied"
 msgstr ""
 
-msgid "When disabled, list commands will give permission denied."
+msgid "When disabled, list commands will give permission denied"
 msgstr ""
