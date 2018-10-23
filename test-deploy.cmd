@@ -6,20 +6,24 @@ set LUCI_ROOT_PATH=/
 
 set HOST=%1
 set PASSWORD=%2
-set EXTRA_OPTIONS=-pw "%PASSWORD%"
+set EXTRA_OPTIONS=
+
+if NOT [%PASSWORD%] == [] (
+	set EXTRA_OPTIONS=-pw "%PASSWORD%"
+)
 
 if [%HOST%] == [] goto host_empty
 
 IF EXIST %~dp0/luasrc (
-	pscp -r %EXTRA_OPTIONS% %PASSWORD% %~dp0/luasrc/* %HOST%:%LUCI_LUASRC_PATH%
+	pscp -r %EXTRA_OPTIONS% %~dp0/luasrc/* %HOST%:%LUCI_LUASRC_PATH%
 )
 
 IF EXIST %~dp0/htdocs (
-	pscp -r %EXTRA_OPTIONS% %PASSWORD% %~dp0/htdocs/* %HOST%:%LUCI_HTDOCS_PATH%
+	pscp -r %EXTRA_OPTIONS% %~dp0/htdocs/* %HOST%:%LUCI_HTDOCS_PATH%
 )
 
 IF EXIST %~dp0/root (
-	pscp -r %EXTRA_OPTIONS% %PASSWORD% %~dp0/root/* %HOST%:%LUCI_ROOT_PATH%
+	pscp -r %EXTRA_OPTIONS% %~dp0/root/* %HOST%:%LUCI_ROOT_PATH%
 )
 
 rem Clear LuCI index cache
