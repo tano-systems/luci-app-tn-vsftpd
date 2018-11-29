@@ -9,7 +9,7 @@ repositoriy (master branch, revision a828ffad85e5d9b673d49ea9b8316ab3689d34c0).
 ## Dependencies
 VSFTP LuCI application developed for LuCI 18.06 branch.
 
-This MSTPd LuCI application required alternate VSFTP server version with
+This VSFTP LuCI application required alternate VSFTP server version with
 UCI support. Recipe and init scripts for OpenWrt can be founded
 in [meta-tano-openwrt](https://github.com/tano-systems/meta-tano-openwrt.git) OpenEmbedded layer.
 
