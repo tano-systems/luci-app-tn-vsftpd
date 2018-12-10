@@ -129,7 +129,7 @@ msgid "Enabled"
 msgstr ""
 
 #: luasrc/controller/vsftpd.lua:27
-msgid "FTP Server"
+msgid "FTP"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:15
