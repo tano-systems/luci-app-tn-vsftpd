@@ -53,7 +53,10 @@ o.default = true
 
 o = sg:option(Flag, "lsrecurse", translate("Allow directory recursely list"))
 
-o = sg:option(Flag, "dotfile", translate("Show dot files"), translate("Folders '.' and '..' are excluded"));
+o = sg:option(Flag, "dotfile", translate("Show dot files"), translate(
+	"If activated, files and directories starting with '.' will be shown in " ..
+	"directory listings even if the 'a' flag was not used by the client. " ..
+	"This override excludes the '.' and '..' entries"))
 o.default = true
 
 o = sg:option(Value, "umask", translate("File mode umask"),

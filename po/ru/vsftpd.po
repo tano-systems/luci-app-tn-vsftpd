@@ -3,7 +3,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2018-12-11 02:41+0300\n"
+"PO-Revision-Date: 2018-12-11 03:23+0300\n"
 "Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -12,16 +12,16 @@ msgstr ""
 "X-Generator: Poedit 2.2\n"
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:31
-#: luasrc/model/cbi/vsftpd/general.lua:101
-#: luasrc/model/cbi/vsftpd/general.lua:104 luasrc/model/cbi/vsftpd/item.lua:57
+#: luasrc/model/cbi/vsftpd/general.lua:104
+#: luasrc/model/cbi/vsftpd/general.lua:107 luasrc/model/cbi/vsftpd/item.lua:57
 msgid "0 means no limitation"
 msgstr "0 &mdash; без ограничений"
 
-#: luasrc/model/cbi/vsftpd/general.lua:65
+#: luasrc/model/cbi/vsftpd/general.lua:68
 msgid "A message will be displayed when entering a directory"
 msgstr "Сообщение отображается при входе в каталог"
 
-#: luasrc/model/cbi/vsftpd/general.lua:85
+#: luasrc/model/cbi/vsftpd/general.lua:88
 msgid "ASCII mode"
 msgstr "Режим ASCII"
 
@@ -49,19 +49,19 @@ msgstr "Настройки анонимного доступа"
 msgid "Anonymous User"
 msgstr "Анонимный доступ"
 
-#: luasrc/model/cbi/vsftpd/general.lua:89
+#: luasrc/model/cbi/vsftpd/general.lua:92
 msgid "Both download and upload"
 msgstr "Для скачивания и загрузки"
 
-#: luasrc/model/cbi/vsftpd/general.lua:110
+#: luasrc/model/cbi/vsftpd/general.lua:113
 msgid "Can not be zero, default is 3"
 msgstr "Не может быть 0, по умолчанию 3"
 
-#: luasrc/model/cbi/vsftpd/general.lua:80
+#: luasrc/model/cbi/vsftpd/general.lua:83
 msgid "Connection Settings"
 msgstr "Настройки подключения"
 
-#: luasrc/model/cbi/vsftpd/general.lua:95
+#: luasrc/model/cbi/vsftpd/general.lua:98
 msgid "Connection timeout"
 msgstr "Таймаут подключения"
 
@@ -69,19 +69,19 @@ msgstr "Таймаут подключения"
 msgid "Data Port"
 msgstr "Порт для данных"
 
-#: luasrc/model/cbi/vsftpd/general.lua:98
+#: luasrc/model/cbi/vsftpd/general.lua:101
 msgid "Data connection timeout"
 msgstr "Таймаут подключения для данных"
 
-#: luasrc/model/cbi/vsftpd/general.lua:67
+#: luasrc/model/cbi/vsftpd/general.lua:70
 msgid "Directory message filename"
 msgstr "Имя файла сообщения директории"
 
-#: luasrc/model/cbi/vsftpd/general.lua:86
+#: luasrc/model/cbi/vsftpd/general.lua:89
 msgid "Disabled"
 msgstr "Отключить"
 
-#: luasrc/model/cbi/vsftpd/general.lua:87
+#: luasrc/model/cbi/vsftpd/general.lua:90
 msgid "Download only"
 msgstr "Только для скачивания (download)"
 
@@ -93,11 +93,11 @@ msgstr "Включить IPv4"
 msgid "Enable IPv6"
 msgstr "Включить IPv6"
 
-#: luasrc/model/cbi/vsftpd/general.lua:83
+#: luasrc/model/cbi/vsftpd/general.lua:86
 msgid "Enable PASV mode"
 msgstr "Включить режим PASV"
 
-#: luasrc/model/cbi/vsftpd/general.lua:82
+#: luasrc/model/cbi/vsftpd/general.lua:85
 msgid "Enable PORT mode"
 msgstr "Включить режим PORT"
 
@@ -105,7 +105,7 @@ msgstr "Включить режим PORT"
 msgid "Enable directory list"
 msgstr "Разрешить просмотр списка директорий"
 
-#: luasrc/model/cbi/vsftpd/general.lua:65
+#: luasrc/model/cbi/vsftpd/general.lua:68
 msgid "Enable directory message"
 msgstr "Включить сообщения при входе в каталоги"
 
@@ -113,7 +113,7 @@ msgstr "Включить сообщения при входе в каталог�
 msgid "Enable download"
 msgstr "Разрешить скачивание (download)"
 
-#: luasrc/model/cbi/vsftpd/general.lua:73
+#: luasrc/model/cbi/vsftpd/general.lua:76
 msgid "Enable local users"
 msgstr "Включить локальных пользователей"
 
@@ -170,18 +170,14 @@ msgstr "FTP сервер: Виртуальный пользователь &laquo
 msgid "FTP Server: Virtual User Settings"
 msgstr "FTP сервер: Настройка виртуальных пользователей"
 
-#: luasrc/model/cbi/vsftpd/general.lua:63
+#: luasrc/model/cbi/vsftpd/general.lua:66
 msgid "FTP banner"
 msgstr "Сообщение сервера (FTP баннер)"
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:28
-#: luasrc/model/cbi/vsftpd/general.lua:59 luasrc/model/cbi/vsftpd/item.lua:54
+#: luasrc/model/cbi/vsftpd/general.lua:62 luasrc/model/cbi/vsftpd/item.lua:54
 msgid "File mode umask"
 msgstr "Режим создания файлов (umask)"
-
-#: luasrc/model/cbi/vsftpd/general.lua:56
-msgid "Folders '.' and '..' are excluded"
-msgstr "Папки &laquo;.&raquo; и &laquo;..&raquo; показываются всегда"
 
 #: luasrc/controller/vsftpd.lua:31
 msgid "General Settings"
@@ -203,17 +199,27 @@ msgstr "IPv4 адрес"
 msgid "IPv6 Address"
 msgstr "IPv6 адрес"
 
-#: luasrc/model/cbi/vsftpd/general.lua:92
+#: luasrc/model/cbi/vsftpd/general.lua:95
 msgid "Idle session timeout"
 msgstr "Таймаут неактивной сессии"
 
-#: luasrc/model/cbi/vsftpd/general.lua:107
+#: luasrc/model/cbi/vsftpd/general.lua:56
+msgid ""
+"If activated, files and directories starting with '.' will be shown in "
+"directory listings even if the 'a' flag was not used by the client. This "
+"override excludes the '.' and '..' entries"
+msgstr ""
+"Если опция установлена, файлы начинающиеся с «.» будут показываться в "
+"листинге директории, даже если флаг «a» не используется клиентом. Эта опция "
+"исключает директории «.» и «..»"
+
+#: luasrc/model/cbi/vsftpd/general.lua:110
 msgid "In KB/s, 0 means no limitation"
 msgstr "В кБ/с, 0 &mdash; без ограничений"
 
-#: luasrc/model/cbi/vsftpd/general.lua:92
 #: luasrc/model/cbi/vsftpd/general.lua:95
 #: luasrc/model/cbi/vsftpd/general.lua:98
+#: luasrc/model/cbi/vsftpd/general.lua:101
 msgid "In seconds"
 msgstr "В секундах"
 
@@ -221,7 +227,7 @@ msgstr "В секундах"
 msgid "Include rename, deletion, ..."
 msgstr "Включая переименование, удаление, ..."
 
-#: luasrc/model/cbi/vsftpd/general.lua:76
+#: luasrc/model/cbi/vsftpd/general.lua:79
 msgid "Leave empty will use user's home directory"
 msgstr "Если не задано, будут использоваться домашние папки пользователей"
 
@@ -233,7 +239,7 @@ msgstr "Порт FTP"
 msgid "Listening Settings"
 msgstr "Сетевые настройки"
 
-#: luasrc/model/cbi/vsftpd/general.lua:71
+#: luasrc/model/cbi/vsftpd/general.lua:74
 msgid "Local Users"
 msgstr "Локальные пользователи"
 
@@ -245,20 +251,20 @@ msgstr "Настройки журналирования"
 msgid "Log file"
 msgstr "Файл журнала"
 
-#: luasrc/model/cbi/vsftpd/general.lua:101
+#: luasrc/model/cbi/vsftpd/general.lua:104
 msgid "Max clients"
 msgstr "Максимальное количество клиентов"
 
-#: luasrc/model/cbi/vsftpd/general.lua:104
+#: luasrc/model/cbi/vsftpd/general.lua:107
 msgid "Max clients per IP"
 msgstr "Максимальное количество клиентов для одного IP-адреса"
 
-#: luasrc/model/cbi/vsftpd/general.lua:110
+#: luasrc/model/cbi/vsftpd/general.lua:113
 msgid "Max login fail count"
 msgstr "Максимальное количество ошибок авторизации"
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:31
-#: luasrc/model/cbi/vsftpd/general.lua:107 luasrc/model/cbi/vsftpd/item.lua:57
+#: luasrc/model/cbi/vsftpd/general.lua:110 luasrc/model/cbi/vsftpd/item.lua:57
 msgid "Max transmit rate"
 msgstr "Максимальная скорость передачи"
 
@@ -267,7 +273,7 @@ msgid "Password"
 msgstr "Пароль"
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:25
-#: luasrc/model/cbi/vsftpd/general.lua:76
+#: luasrc/model/cbi/vsftpd/general.lua:79
 msgid "Root directory"
 msgstr "Корневая папка"
 
@@ -287,11 +293,11 @@ msgstr "Показывать скрытые файлы (dot files)"
 msgid "Unknown"
 msgstr "Неизвестно"
 
-#: luasrc/model/cbi/vsftpd/general.lua:88
+#: luasrc/model/cbi/vsftpd/general.lua:91
 msgid "Upload only"
 msgstr "Только для загрузки (upload)"
 
-#: luasrc/model/cbi/vsftpd/general.lua:60
+#: luasrc/model/cbi/vsftpd/general.lua:63
 msgid ""
 "Uploaded file mode will be 666&thinsp;&minus;&thinsp;umask, directory mode "
 "will be 777&thinsp;&minus;&thinsp;umask"
