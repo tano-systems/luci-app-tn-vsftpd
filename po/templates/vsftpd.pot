@@ -197,7 +197,7 @@ msgstr ""
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:31
 #: luasrc/model/cbi/vsftpd/general.lua:110 luasrc/model/cbi/vsftpd/item.lua:57
-msgid "In B/s, 0 means no limitation"
+msgid "Bytes/s, 0 means no limitation"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/general.lua:95
