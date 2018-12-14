@@ -1,9 +1,8 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: luasrc/model/cbi/vsftpd/anonymous.lua:31
 #: luasrc/model/cbi/vsftpd/general.lua:104
-#: luasrc/model/cbi/vsftpd/general.lua:107 luasrc/model/cbi/vsftpd/item.lua:57
+#: luasrc/model/cbi/vsftpd/general.lua:107
 msgid "0 means no limitation"
 msgstr ""
 
@@ -196,8 +195,9 @@ msgid ""
 "override excludes the '.' and '..' entries"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:110
-msgid "In KB/s, 0 means no limitation"
+#: luasrc/model/cbi/vsftpd/anonymous.lua:31
+#: luasrc/model/cbi/vsftpd/general.lua:110 luasrc/model/cbi/vsftpd/item.lua:57
+msgid "In B/s, 0 means no limitation"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/general.lua:95

@@ -28,7 +28,7 @@ o.default = "/home/ftp"
 o = sa:option(Value, "umask", translate("File mode umask"))
 o.default = "022"
 
-o = sa:option(Value, "maxrate", translate("Max transmit rate"), translate("0 means no limitation"))
+o = sa:option(Value, "maxrate", translate("Max transmit rate"), translate("In B/s, 0 means no limitation"))
 o.default = "0"
 
 o = sa:option(Flag, "writemkdir", translate("Enable write/mkdir"))
