@@ -12,7 +12,7 @@ You may obtain a copy of the License at
 $Id$
 ]]--
 
-m = Map("vsftpd", translate("FTP Server: General Settings"))
+m = Map("vsftpd", translate("General Settings"))
 
 sl = m:section(NamedSection, "listen", "listen", translate("Listening Settings"))
 

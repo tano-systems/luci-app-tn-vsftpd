@@ -3,7 +3,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2018-12-14 16:46+0300\n"
+"PO-Revision-Date: 2019-01-16 21:26+0300\n"
 "Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -146,28 +146,28 @@ msgid "FTP"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:15
-msgid "FTP Server: Anonymous Settings"
-msgstr "FTP сервер: Настройки анонимного доступа"
+msgid "Anonymous Settings"
+msgstr "Настройки анонимного доступа"
 
 #: luasrc/model/cbi/vsftpd/general.lua:15
-msgid "FTP Server: General Settings"
-msgstr "FTP сервер: Общие настройки"
+msgid "General Settings"
+msgstr "Общие настройки"
 
 #: luasrc/model/cbi/vsftpd/log.lua:15
-msgid "FTP Server: Log Settings"
-msgstr "FTP сервер: Настройки журналирования"
+msgid "Log Settings"
+msgstr "Настройки журналирования"
 
 #: luasrc/model/cbi/vsftpd/item.lua:18
-msgid "FTP Server: New Virtual User"
-msgstr "FTP сервер: Новый виртуальный пользователь"
+msgid "New Virtual User"
+msgstr "Новый виртуальный пользователь"
 
 #: luasrc/model/cbi/vsftpd/item.lua:30
-msgid "FTP Server: Virtual User %q"
-msgstr "FTP сервер: Виртуальный пользователь &laquo;%s&raquo;"
+msgid "Virtual User %q"
+msgstr "Виртуальный пользователь &laquo;%s&raquo;"
 
 #: luasrc/model/cbi/vsftpd/users.lua:15
-msgid "FTP Server: Virtual User Settings"
-msgstr "FTP сервер: Настройка виртуальных пользователей"
+msgid "Virtual User Settings"
+msgstr "Настройка виртуальных пользователей"
 
 #: luasrc/model/cbi/vsftpd/general.lua:66
 msgid "FTP banner"

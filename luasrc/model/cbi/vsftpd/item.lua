@@ -15,7 +15,7 @@ $Id$
 local sid = arg[1]
 local utl = require "luci.util"
 
-m = Map("vsftpd", translate("FTP Server: New Virtual User"))
+m = Map("vsftpd", translate("New Virtual User"))
 
 m.redirect = luci.dispatcher.build_url("admin/services/vsftpd/users")
 
@@ -27,7 +27,7 @@ end
 m.uci:foreach("vsftpd", "user",
 	function(s)
 		if s['.name'] == sid and s.username then
-			m.title = translatef("FTP Server: Virtual User %q", s.username)
+			m.title = translatef("Virtual User %q", s.username)
 			return false
 		end
 	end)

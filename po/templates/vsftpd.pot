@@ -132,27 +132,27 @@ msgid "FTP"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:15
-msgid "FTP Server: Anonymous Settings"
+msgid "Anonymous Settings"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/general.lua:15
-msgid "FTP Server: General Settings"
+msgid "General Settings"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/log.lua:15
-msgid "FTP Server: Log Settings"
+msgid "Log Settings"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/item.lua:18
-msgid "FTP Server: New Virtual User"
+msgid "New Virtual User"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/item.lua:30
-msgid "FTP Server: Virtual User %q"
+msgid "Virtual User %q"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/users.lua:15
-msgid "FTP Server: Virtual User Settings"
+msgid "Virtual User Settings"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/general.lua:66

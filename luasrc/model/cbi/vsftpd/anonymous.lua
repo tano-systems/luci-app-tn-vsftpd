@@ -12,7 +12,7 @@ You may obtain a copy of the License at
 $Id$
 ]]--
 
-m = Map("vsftpd", translate("FTP Server: Anonymous Settings"))
+m = Map("vsftpd", translate("Anonymous Settings"))
 
 sa = m:section(NamedSection, "anonymous", "anonymous", translate("Anonymous Settings"))
 
