@@ -12,9 +12,32 @@ You may obtain a copy of the License at
 $Id$
 ]]--
 
+local sys = require "luci.sys"
+local uci = require("luci.model.uci").cursor()
+
 m = Map("vsftpd", translate("General Settings"))
 
-sl = m:section(NamedSection, "listen", "listen", translate("Listening Settings"))
+sl = m:section(NamedSection, "listen", "listen", translate("Service Settings"))
+
+o = sl:option(Flag, "enabled", translate("Enable FTP service"),
+	translate("Run FTP service on system's startup"))
+o.rmempty = false
+
+function o.cfgvalue(self, section)
+	return sys.init.enabled("vsftpd") and self.enabled or self.disabled
+end
+
+function o.write(self, section, value)
+	if value == "1" then
+		sys.init.enable("vsftpd")
+		sys.call("/etc/init.d/vsftpd start >/dev/null 2>&1")
+	else
+		sys.call("/etc/init.d/vsftpd stop >/dev/null 2>&1")
+		sys.init.disable("vsftpd")
+	end
+
+	return Flag.write(self, section, value)
+end
 
 o = sl:option(Flag, "enable4", translate("Enable IPv4"))
 o.rmempty = false
