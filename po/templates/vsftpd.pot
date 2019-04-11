@@ -1,20 +1,20 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: luasrc/model/cbi/vsftpd/general.lua:138
-#: luasrc/model/cbi/vsftpd/general.lua:141
+#: luasrc/model/cbi/vsftpd/general.lua:137
+#: luasrc/model/cbi/vsftpd/general.lua:140
 msgid "0 means no limitation"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:102
+#: luasrc/model/cbi/vsftpd/general.lua:91
 msgid "A message will be displayed when entering a directory"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:122
+#: luasrc/model/cbi/vsftpd/general.lua:121
 msgid "ASCII mode"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:88
+#: luasrc/model/cbi/vsftpd/general.lua:77
 msgid "Allow directory recursely list"
 msgstr ""
 
@@ -35,80 +35,80 @@ msgstr ""
 msgid "Anonymous User"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:126
+#: luasrc/model/cbi/vsftpd/general.lua:125
 msgid "Both download and upload"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:31
-#: luasrc/model/cbi/vsftpd/general.lua:144 luasrc/model/cbi/vsftpd/item.lua:57
+#: luasrc/model/cbi/vsftpd/general.lua:143 luasrc/model/cbi/vsftpd/item.lua:57
 msgid "Bytes/s, 0 means no limitation"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:147
+#: luasrc/model/cbi/vsftpd/general.lua:146
 msgid "Can not be zero, default is 3"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:117
+#: luasrc/model/cbi/vsftpd/general.lua:106
 msgid "Connection Settings"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:132
+#: luasrc/model/cbi/vsftpd/general.lua:131
 msgid "Connection timeout"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:72
+#: luasrc/model/cbi/vsftpd/general.lua:61
 msgid "Data Port"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:135
+#: luasrc/model/cbi/vsftpd/general.lua:134
 msgid "Data connection timeout"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:104
+#: luasrc/model/cbi/vsftpd/general.lua:93
 msgid "Directory message filename"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:123
+#: luasrc/model/cbi/vsftpd/general.lua:122
 msgid "Disabled"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:124
+#: luasrc/model/cbi/vsftpd/general.lua:123
 msgid "Download only"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:31
+#: luasrc/model/cbi/vsftpd/general.lua:22
 msgid "Enable FTP service"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:53
+#: luasrc/model/cbi/vsftpd/general.lua:42
 msgid "Enable IPv4"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:61
+#: luasrc/model/cbi/vsftpd/general.lua:50
 msgid "Enable IPv6"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:120
+#: luasrc/model/cbi/vsftpd/general.lua:109
 msgid "Enable PASV mode"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:119
+#: luasrc/model/cbi/vsftpd/general.lua:108
 msgid "Enable PORT mode"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:85
+#: luasrc/model/cbi/vsftpd/general.lua:74
 msgid "Enable directory list"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:102
+#: luasrc/model/cbi/vsftpd/general.lua:91
 msgid "Enable directory message"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:82
+#: luasrc/model/cbi/vsftpd/general.lua:71
 msgid "Enable download"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:110
+#: luasrc/model/cbi/vsftpd/general.lua:99
 msgid "Enable local users"
 msgstr ""
 
@@ -124,7 +124,7 @@ msgstr ""
 msgid "Enable upload"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:79
+#: luasrc/model/cbi/vsftpd/general.lua:68
 msgid "Enable write"
 msgstr ""
 
@@ -141,20 +141,20 @@ msgstr ""
 msgid "FTP"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:100
+#: luasrc/model/cbi/vsftpd/general.lua:89
 msgid "FTP banner"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:28
-#: luasrc/model/cbi/vsftpd/general.lua:96 luasrc/model/cbi/vsftpd/item.lua:54
+#: luasrc/model/cbi/vsftpd/general.lua:85 luasrc/model/cbi/vsftpd/item.lua:54
 msgid "File mode umask"
 msgstr ""
 
-#: luasrc/controller/vsftpd.lua:31 luasrc/model/cbi/vsftpd/general.lua:25
+#: luasrc/controller/vsftpd.lua:31 luasrc/model/cbi/vsftpd/general.lua:18
 msgid "General Settings"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:77
+#: luasrc/model/cbi/vsftpd/general.lua:66
 msgid "Global Settings"
 msgstr ""
 
@@ -162,28 +162,28 @@ msgstr ""
 msgid "Home directory"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:57
+#: luasrc/model/cbi/vsftpd/general.lua:46
 msgid "IPv4 Address"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:64
+#: luasrc/model/cbi/vsftpd/general.lua:53
 msgid "IPv6 Address"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:129
+#: luasrc/model/cbi/vsftpd/general.lua:128
 msgid "Idle session timeout"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:90
+#: luasrc/model/cbi/vsftpd/general.lua:79
 msgid ""
 "If activated, files and directories starting with '.' will be shown in "
 "directory listings even if the 'a' flag was not used by the client. This "
 "override excludes the '.' and '..' entries"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:129
-#: luasrc/model/cbi/vsftpd/general.lua:132
-#: luasrc/model/cbi/vsftpd/general.lua:135
+#: luasrc/model/cbi/vsftpd/general.lua:128
+#: luasrc/model/cbi/vsftpd/general.lua:131
+#: luasrc/model/cbi/vsftpd/general.lua:134
 msgid "In seconds"
 msgstr ""
 
@@ -191,19 +191,15 @@ msgstr ""
 msgid "Include rename, deletion, ..."
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:113
+#: luasrc/model/cbi/vsftpd/general.lua:102
 msgid "Leave empty will use user's home directory"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:68
+#: luasrc/model/cbi/vsftpd/general.lua:57
 msgid "Listen Port"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:51
-msgid "Listening Settings"
-msgstr ""
-
-#: luasrc/model/cbi/vsftpd/general.lua:108
+#: luasrc/model/cbi/vsftpd/general.lua:97
 msgid "Local Users"
 msgstr ""
 
@@ -216,20 +212,20 @@ msgstr ""
 msgid "Log file"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:138
+#: luasrc/model/cbi/vsftpd/general.lua:137
 msgid "Max clients"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:141
+#: luasrc/model/cbi/vsftpd/general.lua:140
 msgid "Max clients per IP"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:147
+#: luasrc/model/cbi/vsftpd/general.lua:146
 msgid "Max login fail count"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:31
-#: luasrc/model/cbi/vsftpd/general.lua:144 luasrc/model/cbi/vsftpd/item.lua:57
+#: luasrc/model/cbi/vsftpd/general.lua:143 luasrc/model/cbi/vsftpd/item.lua:57
 msgid "Max transmit rate"
 msgstr ""
 
@@ -242,15 +238,15 @@ msgid "Password"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/anonymous.lua:25
-#: luasrc/model/cbi/vsftpd/general.lua:113
+#: luasrc/model/cbi/vsftpd/general.lua:102
 msgid "Root directory"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:32
+#: luasrc/model/cbi/vsftpd/general.lua:23
 msgid "Run FTP service on system's startup"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:27
+#: luasrc/model/cbi/vsftpd/general.lua:20
 msgid "Service Settings"
 msgstr ""
 
@@ -262,19 +258,27 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:90
+#: luasrc/model/cbi/vsftpd/general.lua:79
 msgid "Show dot files"
+msgstr ""
+
+#: luasrc/model/cbi/vsftpd/general.lua:116
+msgid "The maximum port to allocate for PASV style data connections"
+msgstr ""
+
+#: luasrc/model/cbi/vsftpd/general.lua:111
+msgid "The minimum port to allocate for PASV style data connections"
 msgstr ""
 
 #: luasrc/model/cbi/vsftpd/users.lua:42
 msgid "Unknown"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:125
+#: luasrc/model/cbi/vsftpd/general.lua:124
 msgid "Upload only"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:97
+#: luasrc/model/cbi/vsftpd/general.lua:86
 msgid ""
 "Uploaded file mode will be 666&thinsp;&minus;&thinsp;umask, directory mode "
 "will be 777&thinsp;&minus;&thinsp;umask"
@@ -309,15 +313,15 @@ msgstr ""
 msgid "Virtual Users"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:82
+#: luasrc/model/cbi/vsftpd/general.lua:71
 msgid "When disabled, all download request will give permission denied"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:79
+#: luasrc/model/cbi/vsftpd/general.lua:68
 msgid "When disabled, all write request will give permission denied"
 msgstr ""
 
-#: luasrc/model/cbi/vsftpd/general.lua:85
+#: luasrc/model/cbi/vsftpd/general.lua:74
 msgid "When disabled, list commands will give permission denied"
 msgstr ""
 
