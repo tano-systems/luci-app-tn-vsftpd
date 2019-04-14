@@ -364,6 +364,3 @@ msgstr "в файл"
 #: luasrc/model/cbi/vsftpd/log.lua:24
 msgid "to syslog"
 msgstr "в syslog"
-
-#~ msgid "Listening Settings"
-#~ msgstr "Сетевые настройки"
