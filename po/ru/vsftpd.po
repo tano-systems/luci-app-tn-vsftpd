@@ -3,7 +3,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2019-04-11 20:23+0300\n"
+"PO-Revision-Date: 2019-07-15 17:09+0300\n"
 "Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -216,7 +216,7 @@ msgstr "Если не задано, будут использоваться до
 
 #: luasrc/model/cbi/vsftpd/general.lua:57
 msgid "Listen Port"
-msgstr "Порт FTP"
+msgstr "Порт для входящих соединений"
 
 #: luasrc/model/cbi/vsftpd/general.lua:97
 msgid "Local Users"
@@ -287,11 +287,11 @@ msgstr "Показывать скрытые файлы (dot files)"
 
 #: luasrc/model/cbi/vsftpd/general.lua:116
 msgid "The maximum port to allocate for PASV style data connections"
-msgstr "Номер порта до которого размещаются порты для PASV режима"
+msgstr "Номер порта, до которого размещаются порты для PASV режима"
 
 #: luasrc/model/cbi/vsftpd/general.lua:111
 msgid "The minimum port to allocate for PASV style data connections"
-msgstr "Номер порта начиная с которого размещаются порты для PASV режима"
+msgstr "Номер порта, начиная с которого размещаются порты для PASV режима"
 
 #: luasrc/model/cbi/vsftpd/users.lua:42
 msgid "Unknown"
