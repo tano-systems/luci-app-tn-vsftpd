@@ -11,7 +11,7 @@ VSFTP LuCI application developed for LuCI 18.06 branch.
 
 This VSFTP LuCI application required alternate VSFTP server version with
 UCI support. Recipe and init scripts for OpenWrt can be founded
-in [meta-tano-openwrt](https://github.com/tano-systems/meta-tano-openwrt.git) OpenEmbedded layer.
+in [meta-tanowrt](https://github.com/tano-systems/meta-tanowrt.git) OpenEmbedded layer.
 
 ## Supported languages
 - English
