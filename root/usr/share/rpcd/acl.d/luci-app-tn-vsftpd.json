@@ -1,0 +1,11 @@
+{
+	"luci-app-tn-vsftpd": {
+		"description": "Grant UCI access for luci-app-tn-vsftpd",
+		"read": {
+			"uci": [ "vsftpd" ]
+		},
+		"write": {
+			"uci": [ "vsftpd" ]
+		}
+	}
+}
