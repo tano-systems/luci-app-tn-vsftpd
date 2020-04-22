@@ -7,10 +7,10 @@ This LuCI application originally taken from https://github.com/coolsnowwolf/lede
 repositoriy (master branch, revision a828ffad85e5d9b673d49ea9b8316ab3689d34c0).
 
 ## Dependencies
-VSFTP LuCI application developed for LuCI 18.06 branch.
+VSFTP LuCI application developed for LuCI 19.07 branch.
 
-This VSFTP LuCI application required alternate VSFTP server version with
-UCI support. Recipe and init scripts for OpenWrt can be founded
+This VSFTP LuCI application required alternate VSFTP procd init scripts with
+UCI configuration support. OpenEmbedded recipe and init scripts can be founded
 in [meta-tanowrt](https://github.com/tano-systems/meta-tanowrt.git) OpenEmbedded layer.
 
 ## Supported languages
