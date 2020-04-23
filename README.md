@@ -8,7 +8,7 @@ repositoriy (master branch, revision a828ffad85e5d9b673d49ea9b8316ab3689d34c0).
 
 ## Dependencies
 
-Master branch of this repository requires latest LuCI revision with client side rendering feature. Support for older LuCI releases (e.g. for version 18.06.x or 19.07.x) is left in the [1.x](https://github.com/tano-systems/luci-app-tn-vsftpd/tree/1.x) branch of this repository.
+Master branch of this repository requires latest LuCI revision with client side rendering feature. Support for older LuCI releases (e.g. for version 18.06.x or 19.07.x) is left in the [v1.x](https://github.com/tano-systems/luci-app-tn-vsftpd/tree/v1.x) branch of this repository.
 
 This VSFTP LuCI application required alternate VSFTP procd init scripts with
 UCI configuration support. OpenEmbedded recipe and init scripts can be founded
